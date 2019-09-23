@@ -1,0 +1,10 @@
+import math
+entero1 = float(input('Inserta 1 numero entero'))
+entero2 = float(input('Inserta 1 numero entero'))
+print('La suma es: ', entero1+entero2)
+print('La diferencia es: ', entero1-entero2)
+print('El producto es: ', entero1*entero2)
+print('El cociente es:', entero1/entero2)
+print('Potencia:', entero1**entero2)
+print('El residuo de:', entero1 % entero2)
+print('Logaritmo', math.log(enter01)
