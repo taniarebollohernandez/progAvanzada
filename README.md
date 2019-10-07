@@ -101,7 +101,7 @@ Escriba un programa que lea un número positivo n, insertado por el usuario y en
 Cajas de cereal
 Un vendedor de una página de abarrotes en línea vende dos tipos de cajas de cereal. CornFlakes de 750gr y trix de 500gr. Escriba un programa que lea el número de cajas de CornFlakes y cajas de trix, cuyo  valor debe ser introducido por el usuario. Después su programa debe calcular y mostrar el total del peso (en kilogramos) del envió.
 
-[Ejercicio 8(]https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio8.py)
+[Ejercicio 8](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio8.py)
 
 
 ## Ejercicio 9.
