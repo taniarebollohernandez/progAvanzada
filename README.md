@@ -101,8 +101,7 @@ Escriba un programa que lea un número positivo n, insertado por el usuario y en
 Cajas de cereal
 Un vendedor de una página de abarrotes en línea vende dos tipos de cajas de cereal. CornFlakes de 750gr y trix de 500gr. Escriba un programa que lea el número de cajas de CornFlakes y cajas de trix, cuyo  valor debe ser introducido por el usuario. Después su programa debe calcular y mostrar el total del peso (en kilogramos) del envió.
 
-[Ejercicio 8]https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio8.py
-()
+[Ejercicio 8(]https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio8.py)
 
 
 ## Ejercicio 9.
@@ -199,131 +198,131 @@ Dado que el objeto se deja caer desde el reposo (velocidad inicial Vd=m/s). Asum
 ## Ejercicio 20.
 La ley de los gases ideales es una aproximación matemática del comportamiento de los gases a medida que cambian la presión, el volumen y la temperatura. Por lo general, se indica como: PV = nRT donde P es la presión en Pascales, V es el volumen en litros, n es la cantidad de sustancia en moles, R es la constante de gas ideal, igual a 8.314 J mol K, y T es la temperatura en grados Kelvin. Escriba un programa que calcule la cantidad de gas en moles cuando el usuario suministra la presión, el volumen y la temperatura. Pruebe su programa determinando la cantidad de moles de gas en un tanque de buceo. Un tanque típico de SCUBA contiene 12 litros de gas a una presión de 20,000,000 Pascales (aproximadamente 3,000 PSI). La temperatura ambiente es de aproximadamente 20 grados Celsius o 68 grados Fahrenheit. Sugerencia: una temperatura se convierte de Celsius a Kelvin al agregarle 273.15. Para convertir una temperatura de Fahrenheit a Kelvin, deduzca 32 de ella, multiplíquela por 5/9 y luego agregue 273.15.
 
-[Ejercicio ]()
+[Ejercicio 20](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio20.py)
 
 
 ## Ejercicio 21.
 
 El área de un triángulo se puede calcular usando la siguiente fórmula, donde b es la longitud de la base del triángulo y h es su altura: área = b × h / 2 Escriba un programa que permita al usuario ingresar valores para b y h. Luego, el programa debe calcular y mostrar el área de un triángulo con longitud base b y altura h.
 
-[Ejercicio ]()
+[Ejercicio 21](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio21.py)
 
 
 ## Ejercicio 22.
 
 En el ejercicio anterior, se creó un programa que calculaba el área de un triángulo cuando se conocía la longitud de su base y su altura. También es posible calcular el área de un triángulo cuando se conocen las longitudes de los tres lados. Sean s1, s2 y s3 las longitudes de los lados. Sea s = (s1 + s2 + s3) / 2. Entonces el área del triángulo se puede calcular usando la siguiente fórmula: área = s × (s - s1) × (s - s2) × (s - s3) Desarrolle un programa que lea las longitudes de los lados de un triángulo del usuario y muestre su área.
 
-[Ejercicio ]()
+[Ejercicio 22](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio22.py)
 
 
 ## Ejercicio 23.
 
 Un polígono es regular si sus lados tienen la misma longitud y los ángulos entre todos los lados adyacentes son iguales. El área de un polígono regular se puede calcular usando la siguiente fórmula, donde s es la longitud de un lado y n es el número de lados: área = (n × s^2) / (4 × tan (π/ n)) Escriba un programa que lea s y n del usuario y luego muestre el área de un polígono regular construido a partir de estos valores
 
-[Ejercicio ]()
+[Ejercicio 23](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio23.py)
 
 
 ## Ejercicio 24.
 
 Crear un programa que le pida al usurario la duración en dias, horas, minutos y segundos. Calcular y desplegar la cantidad total de segundos de duración
 
-[Ejercicio ]()
+[Ejercicio 24](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio24.py)
 
 
 ## Ejercicio 25.
 
 En este ejercicio usted revertirá el proceso descrito en el ejercicio previo. Desarrolle un programa que comienza por leer una cantidad en segundos introducidos por el usuario. Su programa debe desplegar la cantidad equivalente en forma de D: HH: NN: SS, Donde D son los dias, HH las horas, MM los minutos y SS los segundos. Las horas, minutos y segundos deben estar en formato de 2 dígitos, con un 0 al inicio, si es necesario.
 
-[Ejercicio ]()
+[Ejercicio 25](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio25.py)
 
 
 ## Ejercicio 26.
 Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida una función llamada “asctime” en el módulo de “tiempo”. Lee la hora actual del reloj interno de la computadora y la devuelve en un formato legible para humanos. Escriba un programa que muestre la hora y fecha actuales. Su programa no requerirá ninguna entrada del usuario.
 
-[Ejercicio ]()
+[Ejercicio 26](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio26.py)
 
 
 ## Ejercicio 27.
 
 Escriba un programa que calcule el índice de masa corporal (IMC) de un individuo. Su programa debe comenzar leyendo una altura y un peso del usuario. Utilizando la siguiente formula: IMC = masa/peso^2
 
-[Ejercicio ]()
+[Ejercicio 27](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio27.py)
 
 
 ## Ejercicio 28.
 
 Cuando el viento sopla en clima frío, el aire se siente aún más frío de lo que realmente es porque el movimiento del aire aumenta la velocidad de enfriamiento de los objetos cálidos, como las personas. Este efecto se conoce como sensación térmica. En 2001, Canadá, el Reino Unido y los Estados Unidos adoptaron la siguiente fórmula para calcular el índice de sensación térmica. Dentro de la fórmula “Ta” está la temperatura del aire en grados Celsius y “V” es la velocidad del viento en kilómetros por hora. Se puede usar una fórmula similar con diferentes valores constantes con temperaturas en grados Fahrenheit y velocidades del viento en millas por hora. WCI = 13.12 + 0.6215Ta − 11.37V0.16 + 0.3965TaV0.16 Escriba un programa que comience leyendo la temperatura del aire y la velocidad del viento del usuario. Una vez que se hayan leído estos valores, su programa debería mostrar el índice de enfriamiento del viento redondeado al entero más cercano. El índice de enfriamiento del viento solo se considera válido para temperaturas inferiores o iguales a 10 grados Celsius y velocidades del viento superiores a 4,8 kilómetros por hora
 
-[Ejercicio ]()
+[Ejercicio 28](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio28.py)
 
 
 ## Ejercicio 29.
 
 Escriba un programa que comience leyendo una temperatura del usuario en grados Celsius. Luego, su programa debe mostrar la temperatura equivalente en grados Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes unidades de temperatura se pueden encontrar en Internet.
 
-[Ejercicio ]()
+[Ejercicio 29](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio29.py)
 
 
 ## Ejercicio 30.
 En este ejercicio creará un programa que lee la presión del usuario en kilo pascales. Una vez que se haya leído la presión, su programa debe informar la presión equivalente en libras por pulgada cuadrada, milímetros de mercurio y atmósferas. Usa tus habilidades de investigación para determinar los factores de conversión entre estas unidades
 
-[Ejercicio ]()
+[Ejercicio 30](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio30.py)
 
 
 ## Ejercicio 31.
 
 Desarrolle un programa que lea un número entero de cuatro dígitos del usuario y muestre la suma de los dígitos en el número. Por ejemplo, si el usuario ingresa 3141, entonces su programa debería mostrar 3 + 1 + 4 + 1 = 9.
 
-[Ejercicio ]()
+[Ejercicio 31](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio31.py)
 
 
 ## Ejercicio 32.
 
 Cree un programa que lea tres enteros del usuario y los muestre en orden, ordenado (de menor a mayor). Use las funciones min y máx. para encontrar los valores más pequeños y más grandes. El valor medio se puede encontrar calculando la suma de los tres valores y luego restando el valor mínimo y el valor máximo.
 
-[Ejercicio ]()
+[Ejercicio 32](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio32.py)
 
 
 ## Ejercicio 33.
 
 Una panadería vende hogazas de pan por $ 3.49 cada una. El pan de un día tiene un descuento del 60 por ciento. Escriba un programa que comience leyendo la cantidad de hogazas de pan de un día compradas al usuario. Luego, su programa debe mostrar el precio regular del pan, el descuento porque tiene un día de antigüedad y el precio total. Todos los valores deben mostrarse usando dos decimales, y los puntos decimales en todos los números deben alinearse cuando el usuario ingresa valores razonables.
 
-[Ejercicio ]()
+[Ejercicio 33](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio33.py)
 
 
 ## Ejercicio 34.
 
 Escriba un programa que lea un número entero por el usuario. Su programa debe desplegar un mensaje indicando si su número entero es par o impar
 
-[Ejercicio ]()
+[Ejercicio 34](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio34.py)
 
 
 ## Ejercicio 35.
 
 Se dice comúnmente que un año humano es equivalente a 7 años de perro. Sin embargo, esta simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los primeros dos años humanos como 10.5 años de perro, y luego contar cada año humano adicional como 4 años de perro. Escriba un programa que implemente la conversión de años humanos a años de perros descritos en el párrafo anterior. Asegúrese de que su programa funcione correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más años humanos. Su programa debe mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
 
-[Ejercicio ]()
+[Ejercicio 35](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio35.py)
 
 
 ## Ejercicio 36.
 
 En este ejercicio creará un programa que lee una letra del alfabeto del usuario. Si el usuario ingresa a, e, i, o, u, entonces su programa debe mostrar un mensaje que indica que la letra ingresada es una vocal. Si el usuario ingresa Y entonces su programa debería mostrar un mensaje que indica que a veces Y es una vocal, y a veces Y es una consonante. De lo contrario, su programa debería mostrar un mensaje indicando que la letra es una consonante.
 
-[Ejercicio ]()
+[Ejercicio 36](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio36.py)
 
 
 ## Ejercicio 37.
 
 Escriba un programa que determine el nombre de una forma a partir de su número de lados. Lea el número de lados del usuario y luego informe el nombre apropiado como parte de un mensaje significativo. Su programa debe admitir formas con desde 3 hasta (e incluyendo) 10 lados. Si se ingresa un número de lados fuera de este rango, entonces su programa debería mostrar un mensaje de error apropiado.
 
-[Ejercicio ]()
+[Ejercicio 37](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio37.py)
 
 
 ## Ejercicio 38.
 
 La duración de un mes varía de 28 a 31 días. En este ejercicio creará un programa que lee el nombre de un mes del usuario como una cadena. Luego, su programa debería mostrar la cantidad de días en ese mes. Muestre “28 o 29 días” para febrero para que se aborden los años bisiestos.
 
-[Ejercicio ]()
+[Ejercicio 38](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio38.py)
 
 
 ## Ejercicio 39.
@@ -337,14 +336,14 @@ La siguiente tabla enumera el nivel de sonido en decibelios para varios ruidos c
 
 Escriba un programa que lea un nivel de sonido en decibelios del usuario. Si el usuario ingresa un nivel de decibelios que coincide con uno de los ruidos en la tabla, entonces su programa debería mostrar un mensaje que contenga solo ese ruido. Si el usuario ingresa una cantidad de decibelios entre los ruidos enumerados, entonces su programa debe mostrar un mensaje que indique entre qué ruidos se encuentra el nivel. Asegúrese de que su programa también genere una salida razonable para un valor menor que el ruido más bajo de la tabla y para un valor mayor que el ruido más alto de la tabla.
 
-[Ejercicio ]()
+[Ejercicio 39](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio39.py)
 
 
 ## Ejercicio 40.
 
 Un triángulo se puede clasificar en función de la longitud de sus lados como equilátero, isósceles o escaleno. Los 3 lados de un triángulo equilátero tienen la misma longitud. Un triángulo isósceles tiene dos lados que tienen la misma longitud y un tercer lado que tiene una longitud diferente. Si todos los lados tienen diferentes longitudes, entonces el triángulo es escaleno. Escriba un programa que lea las longitudes de 3 lados de un triángulo del usuario. Muestra un mensaje que indica el tipo de triángulo.
 
-[Ejercicio ]()
+[Ejercicio 40](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio40.py)
 
 
 ## Ejercicio 41.
@@ -361,39 +360,39 @@ NOTA	FRECUENCIA (Hz)
 + B4	493.88
 Comience escribiendo un programa que lea el nombre de una nota del usuario y muestre la frecuencia de la nota. Su programa debe admitir todas las notas enumeradas anteriormente. Una vez que tenga su programa funcionando correctamente para las notas enumeradas anteriormente, debe agregar soporte para todas las notas de C0 a C8. Si bien esto podría hacerse agregando muchos casos adicionales a su declaración if, dicha solución es engorrosa, poco elegante e inaceptable para los propósitos de este ejercicio. En cambio, debe explotar la relación entre las notas en octavas adyacentes. En particular, la frecuencia de cualquier nota en octava “n” es la mitad de la frecuencia de la nota correspondiente en octava n + 1. Al usar esta relación, debería poder agregar soporte para las notas adicionales sin agregar casos adicionales a su declaración if.
 
-[Ejercicio ]()
+[Ejercicio 41](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio41.py)
 
 
 ## Ejercicio 42.
 
 Frecuencia a nota. En la pregunta anterior, convertiste del nombre de la nota a la frecuencia.  En esta pregunta escribirás un programa que revierte ese proceso.  Comience leyendo una frecuencia del usuario.  Si la frecuencia está dentro de un Hertz de un valor que figura en la tabla de la pregunta anterior, informe el nombre de la nota.  De lo contrario, informe que la frecuencia no se corresponde con el no conocido. En este ejercicio solo necesita tener en cuenta las notas enumeradas en el tase.  Es decir, considerar notas de otras octavas.
 
-[Ejercicio ]()
+[Ejercicio 42](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio42.py)
 
 
 ## Ejercicio 43.
 
 Caras sobre el dinero. Es común que aparezcan en su dinero imágenes de los líderes anteriores de un país u otras personas de su importancia tórica.  Las personas que aparecen en los billetes en los Estados Unidos se enumeran en la Tabla 2.1. Escriba un programa que comience leyendo la denominación de un billete del usuario.  Luego, su programa debe mostrar el nombre de la persona que aparece:
 
-[Ejercicio ]()
+[Ejercicio 43](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio43.py)
 
 
 ## Ejercicio 44.
 
 Fecha para el nombre del feriado. Canadá tiene tres feriados nacionales que caen en las mismas fechas cada año. Escriba un programa que lea un mes y un día del usuario.  Si el mes y el día coinciden con uno de los feriados enumerados anteriormente, entonces su programa debería mostrar el nombre del feriado.  De lo contrario, su programa debería indicar que el mes y el día ingresados no corresponden a un día feriado fijo.
 
-[Ejercicio ]()
+[Ejercicio 44](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio44.py)
 
 
 ## Ejercicio 45.
 
 ¿De qué color es ese cuadrado? Las posiciones en un tablero de ajedrez se identifican con una letra y un número.  La letra identifica la columna, mientras que el número identifica la fila, como se muestra a continuación Escriba un programa que lea una posición del usuario.  Use una declaración if para determinar si la columna comienza con un cuadrado negro o un cuadrado blanco.  Luego use la aritmética modular para informar el color del cuadrado en esa fila.  Por ejemplo, si el usuario ingresa al, entonces su programa debe informar que el cuadrado es negro.  Si el usuario ingresa d5, entonces su programa debe informar que el cuadrado es blanco.  Su programa puede asumir que siempre se ingresará una posición válida.  No necesita realizar ninguna comprobación de errores
 
-[Ejercicio ]()
+[Ejercicio 45](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio45.py)
 
 
 ##Ejercicio 46.
 
 Temporada del mes y día. El año se divide en cuatro estaciones: primavera, verano, otoño e invierno.  Si bien las fechas exactas en que cambian las estaciones varían un poco de un año a otro debido a la forma en que se construye el calendario, utilizaremos las siguientes fechas para este ejercicio: NC Cree un programa que lea un mes y un día del usuario.  El usuario ingresará el nombre del mes como una cadena, seguido del día dentro del mes como un entero.  Luego, su programa debe mostrar la temporada asociada con la fecha que se ingresó.
 
-[Ejercicio ]()
+[Ejercicio 46](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio46.py)
