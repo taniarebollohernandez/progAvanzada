@@ -1,0 +1,20 @@
+efectivo = float(int(input('Compra en efectivo:')))
+cinco = float(5)
+diez = float(10)
+peso = float(1)
+cincuenta = float(0.50)
+dos = float(2)
+a = int(efectivo/diez)
+print('Diez: ', a)
+b = (efectivo % diez)
+
+c = int(b/cinco)
+print('Cinco:', c)
+d = (b % cinco)
+
+e = int(d/dos)
+print('Dos', e)
+f = (d % dos)
+
+g = int(f/peso)
+print('Peso', g)

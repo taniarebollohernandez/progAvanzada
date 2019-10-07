@@ -1,0 +1,11 @@
+pies = float(input('Inserte Distancia en pies:'))
+a = float(12)
+b = float(0.33333333333333)
+c = float(0.0001893939)
+
+e = (pies*a)
+f = (pies*b)
+g = (pies*c)
+print('Distancia en pulgadas', e)
+print('Distancia en yardas', f)
+print('Distancia en millas', g)

@@ -1,0 +1,5 @@
+a = float(input('Inserte Temperatura en Celsius:'))
+F = ((a*9/5)+32)
+K = (a+273.15)
+print('F:', F)
+print('K:',K)
