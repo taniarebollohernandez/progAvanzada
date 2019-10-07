@@ -39,14 +39,14 @@ Pythones un lenguaje que con su sintaxis simple, clara y sencilla puede automati
 
 Crear un programa que despliegue su nombre y su dirección de tal manera que pueda escribirse en un sobre de correo. Su programa no tiene que leer ningún dato de entrada por el usuario.
 
-[Ejercicio 1](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio1.py)
+[Ejercicio 1](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio1.py)
 
 
 ## Ejercicio 2.
 
 Escribir un programa que le pregunte al usuario por su nombre. El programa debe responder con un mensaje que le diga hola al usuario, usando su nombre.
 
-[Ejercicio 2](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio2.py)
+[Ejercicio 2](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio2.py)
 
 
 ## Ejercicio 3.
@@ -54,21 +54,21 @@ Escribir un programa que le pregunte al usuario por su nombre. El programa debe 
 Escriba un programa que le pregunte al usuario la larga y el ancho de una habitación. Una vez que los valores han sido leídos, su programa debe de calcular y desplegar el área de la habitación.
 El largo y ancho debe ser introducido con punto flotante (decimal). Incluya las unidades (metros) en su mensaje de entrada y salida.
 
-[Ejercicio 3](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio3.py)
+[Ejercicio 3](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio3.py)
 
 
 ## Ejercicio 4.
 
 Crear programa que lea el largo y el ancho de un campo de cultivo, introducido por el usuario y despliegue el área del campo en acres.
 
-[Ejercicio 4](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio4.py)
+[Ejercicio 4](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio4.py)
 
 
 ## Ejercicio 5.
 
 En muchas jurisdicciones se añade un pequeño depósito a los contenedores de bebidas para animar a la gente a reciclarlos. En una jurisdicción en particular, los recipientes de bebidas que contienen un litro o menos tienen un depósito de $0.10, y los contenedores de bebidas que contienen más de un litro tienen un depósito de $0.25. Escriba un programa que lea el número de contenedores de cada tamaño del usuario. Su programa debe continuar calculando y mostrando el reembolso que se recibirá por devolver esos contenedores. Formatee la salida para que incluya un signo de dólar y siempre muestre exactamente dos decimales.
 
-[Ejercicio 5](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio5.py)
+[Ejercicio 5](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio5.py)
 
 
 ## Ejercicio 6.
@@ -87,13 +87,13 @@ Hacer un programa en el que el usuario introduzca el nombre de la comida que ord
 + Introduzca el valor de la comida:
 
 
-[Ejercicio 6](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio6.py)
+[Ejercicio 6](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio6.py)
 
 
 ## Ejercicio 7.
 Escriba un programa que lea un número positivo n, insertado por el usuario y enteros desde 1 hasta n. La suma de los primeros enteros n positivos puede ser calculado usando la formula suma=(n) (n+1)/2.
 
-[Ejercicio 7](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio7.py)
+[Ejercicio 7](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio7.py)
 
 
 ## Ejercicio 8.
@@ -101,7 +101,8 @@ Escriba un programa que lea un número positivo n, insertado por el usuario y en
 Cajas de cereal
 Un vendedor de una página de abarrotes en línea vende dos tipos de cajas de cereal. CornFlakes de 750gr y trix de 500gr. Escriba un programa que lea el número de cajas de CornFlakes y cajas de trix, cuyo  valor debe ser introducido por el usuario. Después su programa debe calcular y mostrar el total del peso (en kilogramos) del envió.
 
-[Ejercicio 8](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio8.py)
+[Ejercicio 8]https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio8.py
+()
 
 
 ## Ejercicio 9.
@@ -111,7 +112,7 @@ Intereses compuestos
 + Escriba un programa que comience a leer la cantidad de dinero depositada en la cuenta (el usuario introduce esta cantidad).
 + El programa debe calcular y mostrar la cantidad de dinero en la cuenta después del primer, segundo y tercer año. Despliegue las cantidades de dinero redondeando a 2 decimales.
 
-[Ejercicio 9](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio9.py)
+[Ejercicio 9](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio9.py)
 
 
 ## Ejercicio 10.
@@ -120,7 +121,7 @@ Aritmética
 Cree un programa que lea dos valores enteros, a y b, introducidos por el usuario.
 Para realizar este programa es necesario llamar una librería llamada math. 
 
-[Ejercicio 10](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio10.py)
+[Ejercicio 10](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio10.py)
 
 
 ## Ejercicio 11.
@@ -129,7 +130,7 @@ Fuel efficiency. Eficiencia del combustible .
 En los Estados Unidos, la eficiencia del combustible para vehículos normalmente se expresa en millas por galón (MPG). En México, la eficiencia del combustible normalmente se expresa en litros por cien kilómetros (L / 100km). 
 Usa tus habilidades de investigación para determinar cómo convertir de MPG a L / 100km.  Luego, cree un programa que lea un valor del uso en unidades estadounidenses y muestre  la eficiencia de combustible equivalente en unidades mexicanas.
 
-[Ejercicio 11](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio11.py)
+[Ejercicio 11](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio11.py)
 
 
 ## Ejercicio 12.
@@ -143,56 +144,56 @@ Distancia = 6371.01*arccos(sen(t1)*sen(t2)+cos(t1)*cos(t2)*cos(g1-g2))
 Cree un programa que le permita al usuario introducir la latitud y longitud de dos puntos de la tierra en grados.
 Su programa debe desplegar la distancia entre esos puntos, en kilómetros. Tenga en cuenta que las funciones trigonométricas  en Python trabajan en radianes, por lo que debe convertir el valor introducido en grados a radianes antes de utilizar la formula. El módulo math contiene el comando radians, que cambia de grados a radianes.
 
-[Ejercicio 12](https://github.com/alejandroruizgtz/progAvanzada/blob/master/ejercicio12.py)
+[Ejercicio 12](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio12.py)
 
 
 ## Ejercicio 13.
 
 Considere el software que se ejecuta en una máquina de auto pago. Una tarea que debe ser capaz de realizar es determinar cuánto cambio proporcionar cuando el comprador paga una compra en efectivo. Escriba un programa que comience leyendo una cantidad de centavos del usuario como un entero. Luego, su programa debe calcular y mostrar las denominaciones de las monedas que se deben usar para dar esa cantidad de cambio al comprador. Los cambios deben darse usando la menor cantidad de monedas posible. Suponga que la máquina está cargada con monedas de un centavo, cinco centavos, diez centavos, cuartos, loonies y toonies. Una moneda de un dólar se introdujo en Canadá en 1987. Se conoce como a loonie porque una cara de la moneda tiene un bribón (un tipo de pájaro). La moneda de dos dólares, conocida como toonie, se introdujo 9 años después. Su nombre se deriva de la combinación del número dos y el nombre del loonie.
 
-[Ejercicio ]()
+[Ejercici0 13](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio13.py)
 
 
 ## Ejercicio 14.
 
 Muchas personas piensan en su altura en pies y pulgadas, incluso en algunos países que utilizan principalmente el sistema métrico. Escriba un programa que lea un número de pies del usuario, seguido de un número de pulgadas. Una vez que se leen estos valores, su programa.
 
-[Ejercicio ]()
+[Ejercicio 14](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio14.py)
 
 
 ## Ejercicio 15.
 
 En este ejercicio, creará un programa que comienza leyendo una medida en pies del usuario. Luego, su programa debe mostrar la distancia equivalente en pulgadas, yardas y millas. Use Internet para buscar los factores de conversión necesarios si no los tiene memorizados.
 
-[Ejercicio ]()
+[Ejercicio 15](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio15.py)
 
 
 ## Ejercicio 16.
 
 Escriba un programa que comience leyendo un radio, r, del usuario. El programa continuará calculando y mostrando el área de un círculo con radio r y el volumen de una esfera con radio r. Use la constante pi en el módulo matemático en sus cálculos. Sugerencia: El área de un círculo se calcula usando el área de fórmula = πr^2. El volumen de una esfera se calcula usando la fórmula volumen = 4/3 * π r^3.
 
-[Ejercicio ]()
+[Ejercicio 16](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio16.py)
 
 
 ## Ejercicio 17.
 
 La cantidad de energía requerida para aumentar la temperatura de un gramo de un material en un grado Celsius es la capacidad de calor específica del material, C. La cantidad total de energía requerida para elevar m gramos de un material en ΔT grados Celsius se puede calcular usando la fórmula: q = mCΔT. Escriba un programa que lea la masa de un poco de agua y el cambio de temperatura del usuario. Su programa debe mostrar la cantidad total de energía que debe agregarse o eliminarse para lograr el cambio de temperatura deseado. Sugerencia: La capacidad calorífica específica del agua es 4.186 J g◦C. Debido a que el agua tiene una densidad de 1.0 gramo por mililitro, puede usar gramos y mililitros de manera intercambiable en este ejercicio.
 
-[Ejercicio ]()
+[Ejercicio 17](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio17.py)
 
 
 ## Ejercicio 18.
 
 El volumen de un cilindro se puede calcular multiplicando el área de su base circular por su altura. Escriba un programa que lea el radio del cilindro, junto con su altura, del usuario y calcule su volumen. Muestra el resultado redondeado a un decimal.
 
-[Ejercicio ]()
+[Ejercicio 18](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio18.py)
 
 
 ## Ejercicio 19.
 Escriba un programa que determine como un objeto viaja cuando golpea el piso. El usuario insertara la información de la altura desde donde el objeto se deja caer, en metros (m). 
 Dado que el objeto se deja caer desde el reposo (velocidad inicial Vd=m/s). Asumiendo que la aceleración debido a la gravedad es 9.81m/s´2 y usando la formula Vf=(Vo´2 + 2gd)´2/3. Calcule la velocidad final Vf usando la velocidad inicial V0, la aceleración g, y la distancia d.
 
-[Ejercicio ]()
+[Ejercicio 19](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio19.py)
 
 
 ## Ejercicio 20.
