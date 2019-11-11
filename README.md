@@ -1,6 +1,5 @@
 # progAvanzada
 ## Introducción
-
 Python es un lenguaje de programación creado por Guido Van Rossum a principios de los años 1990. El lenguaje favorece una sintaxis muy limpia ya que favorece un código legible. Se trata de un lenguaje interpretado o de script, con tipado dinámico, fuertemente tipado, multiplataforma, y orientado a objetos.
 Lenguaje compilado.- lenguaje “C”. 
 Lenguaje Python o interpretador.
@@ -36,21 +35,18 @@ Pythones un lenguaje que con su sintaxis simple, clara y sencilla puede automati
 
 
 ## Ejercicio 1.
-
 Crear un programa que despliegue su nombre y su dirección de tal manera que pueda escribirse en un sobre de correo. Su programa no tiene que leer ningún dato de entrada por el usuario.
 
 [Ejercicio 1](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio1.py)
 
 
 ## Ejercicio 2.
-
 Escribir un programa que le pregunte al usuario por su nombre. El programa debe responder con un mensaje que le diga hola al usuario, usando su nombre.
 
 [Ejercicio 2](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio2.py)
 
 
 ## Ejercicio 3.
-
 Escriba un programa que le pregunte al usuario la larga y el ancho de una habitación. Una vez que los valores han sido leídos, su programa debe de calcular y desplegar el área de la habitación.
 El largo y ancho debe ser introducido con punto flotante (decimal). Incluya las unidades (metros) en su mensaje de entrada y salida.
 
@@ -58,21 +54,18 @@ El largo y ancho debe ser introducido con punto flotante (decimal). Incluya las 
 
 
 ## Ejercicio 4.
-
 Crear programa que lea el largo y el ancho de un campo de cultivo, introducido por el usuario y despliegue el área del campo en acres.
 
 [Ejercicio 4](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio4.py)
 
 
 ## Ejercicio 5.
-
 En muchas jurisdicciones se añade un pequeño depósito a los contenedores de bebidas para animar a la gente a reciclarlos. En una jurisdicción en particular, los recipientes de bebidas que contienen un litro o menos tienen un depósito de $0.10, y los contenedores de bebidas que contienen más de un litro tienen un depósito de $0.25. Escriba un programa que lea el número de contenedores de cada tamaño del usuario. Su programa debe continuar calculando y mostrando el reembolso que se recibirá por devolver esos contenedores. Formatee la salida para que incluya un signo de dólar y siempre muestre exactamente dos decimales.
 
 [Ejercicio 5](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio5.py)
 
 
 ## Ejercicio 6.
-
 Hacer un programa en el que el usuario introduzca el nombre de la comida que ordeno en un restaurante y su precio. Después el programa debe calcular el subtotal, él iba, y la propina de toda la cuenta. La salida del programa debe parecerse a un ticket de restaurante. Use un iba del 16% y una propina del 15% del subtotal. Los valores numéricos deben tener dos decimales.
 
 + Introduzca el nombre de la comida
@@ -105,7 +98,6 @@ Un vendedor de una página de abarrotes en línea vende dos tipos de cajas de ce
 
 
 ## Ejercicio 9.
-
 Intereses compuestos
 + Usted acaba de abrir una cuenta de ahorros con el cual gana el 4% de interés por año. El interés que usted genera es pagado al final del año, y es agregado al balance de la cuenta de banco.
 + Escriba un programa que comience a leer la cantidad de dinero depositada en la cuenta (el usuario introduce esta cantidad).
@@ -115,7 +107,6 @@ Intereses compuestos
 
 
 ## Ejercicio 10.
-
 Aritmética
 Cree un programa que lea dos valores enteros, a y b, introducidos por el usuario.
 Para realizar este programa es necesario llamar una librería llamada math. 
@@ -124,7 +115,6 @@ Para realizar este programa es necesario llamar una librería llamada math.
 
 
 ## Ejercicio 11.
-
 Fuel efficiency. Eficiencia del combustible .
 En los Estados Unidos, la eficiencia del combustible para vehículos normalmente se expresa en millas por galón (MPG). En México, la eficiencia del combustible normalmente se expresa en litros por cien kilómetros (L / 100km). 
 Usa tus habilidades de investigación para determinar cómo convertir de MPG a L / 100km.  Luego, cree un programa que lea un valor del uso en unidades estadounidenses y muestre  la eficiencia de combustible equivalente en unidades mexicanas.
@@ -133,7 +123,6 @@ Usa tus habilidades de investigación para determinar cómo convertir de MPG a L
 
 
 ## Ejercicio 12.
-
 Distancias entre dos puntos de la tierra.
 La superficie de la tierra es curva y la distancia entre grados de longitud varía con la latitud. Como resultado, encontrar la distancia entre dos puntos de la superficie de la tierra es más complicado que usar el teorema de Pitágoras.
 Si (t1, g1) y (t2,g2) es la latitud y longitud de dos puntos de la superficie de la tierra. La distancia entre esos puntos, atravesó de la superficie de la tierra, en kilómetros es:
@@ -147,42 +136,36 @@ Su programa debe desplegar la distancia entre esos puntos, en kilómetros. Tenga
 
 
 ## Ejercicio 13.
-
 Considere el software que se ejecuta en una máquina de auto pago. Una tarea que debe ser capaz de realizar es determinar cuánto cambio proporcionar cuando el comprador paga una compra en efectivo. Escriba un programa que comience leyendo una cantidad de centavos del usuario como un entero. Luego, su programa debe calcular y mostrar las denominaciones de las monedas que se deben usar para dar esa cantidad de cambio al comprador. Los cambios deben darse usando la menor cantidad de monedas posible. Suponga que la máquina está cargada con monedas de un centavo, cinco centavos, diez centavos, cuartos, loonies y toonies. Una moneda de un dólar se introdujo en Canadá en 1987. Se conoce como a loonie porque una cara de la moneda tiene un bribón (un tipo de pájaro). La moneda de dos dólares, conocida como toonie, se introdujo 9 años después. Su nombre se deriva de la combinación del número dos y el nombre del loonie.
 
 [Ejercici0 13](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio13.py)
 
 
 ## Ejercicio 14.
-
 Muchas personas piensan en su altura en pies y pulgadas, incluso en algunos países que utilizan principalmente el sistema métrico. Escriba un programa que lea un número de pies del usuario, seguido de un número de pulgadas. Una vez que se leen estos valores, su programa.
 
 [Ejercicio 14](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio14.py)
 
 
 ## Ejercicio 15.
-
 En este ejercicio, creará un programa que comienza leyendo una medida en pies del usuario. Luego, su programa debe mostrar la distancia equivalente en pulgadas, yardas y millas. Use Internet para buscar los factores de conversión necesarios si no los tiene memorizados.
 
 [Ejercicio 15](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio15.py)
 
 
 ## Ejercicio 16.
-
 Escriba un programa que comience leyendo un radio, r, del usuario. El programa continuará calculando y mostrando el área de un círculo con radio r y el volumen de una esfera con radio r. Use la constante pi en el módulo matemático en sus cálculos. Sugerencia: El área de un círculo se calcula usando el área de fórmula = πr^2. El volumen de una esfera se calcula usando la fórmula volumen = 4/3 * π r^3.
 
 [Ejercicio 16](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio16.py)
 
 
 ## Ejercicio 17.
-
 La cantidad de energía requerida para aumentar la temperatura de un gramo de un material en un grado Celsius es la capacidad de calor específica del material, C. La cantidad total de energía requerida para elevar m gramos de un material en ΔT grados Celsius se puede calcular usando la fórmula: q = mCΔT. Escriba un programa que lea la masa de un poco de agua y el cambio de temperatura del usuario. Su programa debe mostrar la cantidad total de energía que debe agregarse o eliminarse para lograr el cambio de temperatura deseado. Sugerencia: La capacidad calorífica específica del agua es 4.186 J g◦C. Debido a que el agua tiene una densidad de 1.0 gramo por mililitro, puede usar gramos y mililitros de manera intercambiable en este ejercicio.
 
 [Ejercicio 17](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio17.py)
 
 
 ## Ejercicio 18.
-
 El volumen de un cilindro se puede calcular multiplicando el área de su base circular por su altura. Escriba un programa que lea el radio del cilindro, junto con su altura, del usuario y calcule su volumen. Muestra el resultado redondeado a un decimal.
 
 [Ejercicio 18](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio18.py)
@@ -202,35 +185,30 @@ La ley de los gases ideales es una aproximación matemática del comportamiento 
 
 
 ## Ejercicio 21.
-
 El área de un triángulo se puede calcular usando la siguiente fórmula, donde b es la longitud de la base del triángulo y h es su altura: área = b × h / 2 Escriba un programa que permita al usuario ingresar valores para b y h. Luego, el programa debe calcular y mostrar el área de un triángulo con longitud base b y altura h.
 
 [Ejercicio 21](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio21.py)
 
 
 ## Ejercicio 22.
-
 En el ejercicio anterior, se creó un programa que calculaba el área de un triángulo cuando se conocía la longitud de su base y su altura. También es posible calcular el área de un triángulo cuando se conocen las longitudes de los tres lados. Sean s1, s2 y s3 las longitudes de los lados. Sea s = (s1 + s2 + s3) / 2. Entonces el área del triángulo se puede calcular usando la siguiente fórmula: área = s × (s - s1) × (s - s2) × (s - s3) Desarrolle un programa que lea las longitudes de los lados de un triángulo del usuario y muestre su área.
 
 [Ejercicio 22](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio22.py)
 
 
 ## Ejercicio 23.
-
 Un polígono es regular si sus lados tienen la misma longitud y los ángulos entre todos los lados adyacentes son iguales. El área de un polígono regular se puede calcular usando la siguiente fórmula, donde s es la longitud de un lado y n es el número de lados: área = (n × s^2) / (4 × tan (π/ n)) Escriba un programa que lea s y n del usuario y luego muestre el área de un polígono regular construido a partir de estos valores
 
 [Ejercicio 23](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio23.py)
 
 
 ## Ejercicio 24.
-
 Crear un programa que le pida al usurario la duración en dias, horas, minutos y segundos. Calcular y desplegar la cantidad total de segundos de duración
 
 [Ejercicio 24](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio24.py)
 
 
 ## Ejercicio 25.
-
 En este ejercicio usted revertirá el proceso descrito en el ejercicio previo. Desarrolle un programa que comienza por leer una cantidad en segundos introducidos por el usuario. Su programa debe desplegar la cantidad equivalente en forma de D: HH: NN: SS, Donde D son los dias, HH las horas, MM los minutos y SS los segundos. Las horas, minutos y segundos deben estar en formato de 2 dígitos, con un 0 al inicio, si es necesario.
 
 [Ejercicio 25](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio25.py)
@@ -243,21 +221,18 @@ Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida
 
 
 ## Ejercicio 27.
-
 Escriba un programa que calcule el índice de masa corporal (IMC) de un individuo. Su programa debe comenzar leyendo una altura y un peso del usuario. Utilizando la siguiente formula: IMC = masa/peso^2
 
 [Ejercicio 27](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio27.py)
 
 
 ## Ejercicio 28.
-
 Cuando el viento sopla en clima frío, el aire se siente aún más frío de lo que realmente es porque el movimiento del aire aumenta la velocidad de enfriamiento de los objetos cálidos, como las personas. Este efecto se conoce como sensación térmica. En 2001, Canadá, el Reino Unido y los Estados Unidos adoptaron la siguiente fórmula para calcular el índice de sensación térmica. Dentro de la fórmula “Ta” está la temperatura del aire en grados Celsius y “V” es la velocidad del viento en kilómetros por hora. Se puede usar una fórmula similar con diferentes valores constantes con temperaturas en grados Fahrenheit y velocidades del viento en millas por hora. WCI = 13.12 + 0.6215Ta − 11.37V0.16 + 0.3965TaV0.16 Escriba un programa que comience leyendo la temperatura del aire y la velocidad del viento del usuario. Una vez que se hayan leído estos valores, su programa debería mostrar el índice de enfriamiento del viento redondeado al entero más cercano. El índice de enfriamiento del viento solo se considera válido para temperaturas inferiores o iguales a 10 grados Celsius y velocidades del viento superiores a 4,8 kilómetros por hora
 
 [Ejercicio 28](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio28.py)
 
 
 ## Ejercicio 29.
-
 Escriba un programa que comience leyendo una temperatura del usuario en grados Celsius. Luego, su programa debe mostrar la temperatura equivalente en grados Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes unidades de temperatura se pueden encontrar en Internet.
 
 [Ejercicio 29](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio29.py)
@@ -270,63 +245,54 @@ En este ejercicio creará un programa que lee la presión del usuario en kilo pa
 
 
 ## Ejercicio 31.
-
 Desarrolle un programa que lea un número entero de cuatro dígitos del usuario y muestre la suma de los dígitos en el número. Por ejemplo, si el usuario ingresa 3141, entonces su programa debería mostrar 3 + 1 + 4 + 1 = 9.
 
 [Ejercicio 31](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio31.py)
 
 
 ## Ejercicio 32.
-
 Cree un programa que lea tres enteros del usuario y los muestre en orden, ordenado (de menor a mayor). Use las funciones min y máx. para encontrar los valores más pequeños y más grandes. El valor medio se puede encontrar calculando la suma de los tres valores y luego restando el valor mínimo y el valor máximo.
 
 [Ejercicio 32](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio32.py)
 
 
 ## Ejercicio 33.
-
 Una panadería vende hogazas de pan por $ 3.49 cada una. El pan de un día tiene un descuento del 60 por ciento. Escriba un programa que comience leyendo la cantidad de hogazas de pan de un día compradas al usuario. Luego, su programa debe mostrar el precio regular del pan, el descuento porque tiene un día de antigüedad y el precio total. Todos los valores deben mostrarse usando dos decimales, y los puntos decimales en todos los números deben alinearse cuando el usuario ingresa valores razonables.
 
 [Ejercicio 33](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio33.py)
 
 
 ## Ejercicio 34.
-
 Escriba un programa que lea un número entero por el usuario. Su programa debe desplegar un mensaje indicando si su número entero es par o impar
 
 [Ejercicio 34](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio34.py)
 
 
 ## Ejercicio 35.
-
 Se dice comúnmente que un año humano es equivalente a 7 años de perro. Sin embargo, esta simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los primeros dos años humanos como 10.5 años de perro, y luego contar cada año humano adicional como 4 años de perro. Escriba un programa que implemente la conversión de años humanos a años de perros descritos en el párrafo anterior. Asegúrese de que su programa funcione correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más años humanos. Su programa debe mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
 
 [Ejercicio 35](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio35.py)
 
 
 ## Ejercicio 36.
-
 En este ejercicio creará un programa que lee una letra del alfabeto del usuario. Si el usuario ingresa a, e, i, o, u, entonces su programa debe mostrar un mensaje que indica que la letra ingresada es una vocal. Si el usuario ingresa Y entonces su programa debería mostrar un mensaje que indica que a veces Y es una vocal, y a veces Y es una consonante. De lo contrario, su programa debería mostrar un mensaje indicando que la letra es una consonante.
 
 [Ejercicio 36](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio36.py)
 
 
 ## Ejercicio 37.
-
 Escriba un programa que determine el nombre de una forma a partir de su número de lados. Lea el número de lados del usuario y luego informe el nombre apropiado como parte de un mensaje significativo. Su programa debe admitir formas con desde 3 hasta (e incluyendo) 10 lados. Si se ingresa un número de lados fuera de este rango, entonces su programa debería mostrar un mensaje de error apropiado.
 
 [Ejercicio 37](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio37.py)
 
 
 ## Ejercicio 38.
-
 La duración de un mes varía de 28 a 31 días. En este ejercicio creará un programa que lee el nombre de un mes del usuario como una cadena. Luego, su programa debería mostrar la cantidad de días en ese mes. Muestre “28 o 29 días” para febrero para que se aborden los años bisiestos.
 
 [Ejercicio 38](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio38.py)
 
 
 ## Ejercicio 39.
-
 La siguiente tabla enumera el nivel de sonido en decibelios para varios ruidos comunes.
 + RUIDO	NIVEL DE DECIBELES (dB)
 + Martillo neumático	130
@@ -340,14 +306,12 @@ Escriba un programa que lea un nivel de sonido en decibelios del usuario. Si el 
 
 
 ## Ejercicio 40.
-
 Un triángulo se puede clasificar en función de la longitud de sus lados como equilátero, isósceles o escaleno. Los 3 lados de un triángulo equilátero tienen la misma longitud. Un triángulo isósceles tiene dos lados que tienen la misma longitud y un tercer lado que tiene una longitud diferente. Si todos los lados tienen diferentes longitudes, entonces el triángulo es escaleno. Escriba un programa que lea las longitudes de 3 lados de un triángulo del usuario. Muestra un mensaje que indica el tipo de triángulo.
 
 [Ejercicio 40](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio40.py)
 
 
 ## Ejercicio 41.
-
 La siguiente tabla enumera una octava de notas musicales, comenzando con C central, junto con sus frecuencias.
 
 NOTA	FRECUENCIA (Hz)
@@ -364,35 +328,214 @@ Comience escribiendo un programa que lea el nombre de una nota del usuario y mue
 
 
 ## Ejercicio 42.
-
 Frecuencia a nota. En la pregunta anterior, convertiste del nombre de la nota a la frecuencia.  En esta pregunta escribirás un programa que revierte ese proceso.  Comience leyendo una frecuencia del usuario.  Si la frecuencia está dentro de un Hertz de un valor que figura en la tabla de la pregunta anterior, informe el nombre de la nota.  De lo contrario, informe que la frecuencia no se corresponde con el no conocido. En este ejercicio solo necesita tener en cuenta las notas enumeradas en el tase.  Es decir, considerar notas de otras octavas.
 
 [Ejercicio 42](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio42.py)
 
 
 ## Ejercicio 43.
-
 Caras sobre el dinero. Es común que aparezcan en su dinero imágenes de los líderes anteriores de un país u otras personas de su importancia tórica.  Las personas que aparecen en los billetes en los Estados Unidos se enumeran en la Tabla 2.1. Escriba un programa que comience leyendo la denominación de un billete del usuario.  Luego, su programa debe mostrar el nombre de la persona que aparece:
 
 [Ejercicio 43](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio43.py)
 
 
 ## Ejercicio 44.
-
 Fecha para el nombre del feriado. Canadá tiene tres feriados nacionales que caen en las mismas fechas cada año. Escriba un programa que lea un mes y un día del usuario.  Si el mes y el día coinciden con uno de los feriados enumerados anteriormente, entonces su programa debería mostrar el nombre del feriado.  De lo contrario, su programa debería indicar que el mes y el día ingresados no corresponden a un día feriado fijo.
 
 [Ejercicio 44](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio44.py)
 
 
 ## Ejercicio 45.
-
 ¿De qué color es ese cuadrado? Las posiciones en un tablero de ajedrez se identifican con una letra y un número.  La letra identifica la columna, mientras que el número identifica la fila, como se muestra a continuación Escriba un programa que lea una posición del usuario.  Use una declaración if para determinar si la columna comienza con un cuadrado negro o un cuadrado blanco.  Luego use la aritmética modular para informar el color del cuadrado en esa fila.  Por ejemplo, si el usuario ingresa al, entonces su programa debe informar que el cuadrado es negro.  Si el usuario ingresa d5, entonces su programa debe informar que el cuadrado es blanco.  Su programa puede asumir que siempre se ingresará una posición válida.  No necesita realizar ninguna comprobación de errores
 
 [Ejercicio 45](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio45.py)
 
 
-##Ejercicio 46.
-
+## Ejercicio 46.
 Temporada del mes y día. El año se divide en cuatro estaciones: primavera, verano, otoño e invierno.  Si bien las fechas exactas en que cambian las estaciones varían un poco de un año a otro debido a la forma en que se construye el calendario, utilizaremos las siguientes fechas para este ejercicio: NC Cree un programa que lea un mes y un día del usuario.  El usuario ingresará el nombre del mes como una cadena, seguido del día dentro del mes como un entero.  Luego, su programa debe mostrar la temporada asociada con la fecha que se ingresó.
 
 [Ejercicio 46](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio46.py)
+
+
+## Ejercicio 47
+Los horóscopos comúnmente reportados en los periódicos usan la posición del sol en el momento del nacimiento para intentar predecir el futuro. Este sistema de astrología divide el año en doce signos del zodiaco, como se describe en la tabla a continuación:
+
+|Signo zodiacal | Fechas |
+|Capricornio |Diciembre 22 to Enero 19| 
+|Aquario |Enero 20 to Febrero 18| 
+|Piscis |Febrero 19 to Marzo 20| 
+|Aries |Marzo 21 to Abril 19| 
+|Tauro |Abril 20 to Mayo 20| 
+|Geminis |Mayo 21 to Junio 20| 
+|Cancer |Junio 21 to Julio 22| 
+|Leo |Julio 23 to Agosto 22| 
+|Virgo |Agosto 23 to Septiembre 22| 
+|Libra |Septiembre 23 to Octubre 22| 
+|Escorpion |Octubre 23 to Noviembre 21| 
+|Sagitario |Noviembre 22 to Diciembre 21|
+
+Escriba un programa que le pida al usuario que ingrese su mes y día de nacimiento. Luego, nuestro programa debe informar el signo zodiacal del usuario como parte de un mensaje de salida apropiado.
+
+[Ejercicio 47]()
+
+## Ejercicio 48
+El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12 años se muestra en la tabla a continuación. El patrón se repite a partir de ahí, con 2012 siendo otro año del dragón, y 1999 siendo otro año de la liebre.
+
+|Año |Animal| 
+|----------|----------|
+|2000 |Dragón| 
+|2001 |Serpiente |
+|2002 |Caballo |
+|2003 |Oveja|
+|2004 |Mono| 
+|2005 |Gallo |
+|2006 |Perro |
+|2007 |Cerdo |
+|2008 |Rata |
+|2009 |Buey |
+|2010 |Tigre| 
+|2011| Liebre|
+
+Escriba un programa que lea un año del usuario y muestre el animal asociado con ese año. Su programa debería funcionar correctamente durante cualquier año mayor o igual a cero, no solo los que figuran en la tabla.
+
+[Ejercicio 48]()
+
+## Ejercicio 49
+La siguiente tabla contiene rangos de magnitud de terremotos en la escala de Richter y sus descriptores:
+
+|Magnitud| Tipos|
+|---------|-----------| 
+|Menor que 2.0| Micro| 
+|2.0 Menor que 3.0| Muy suave| 
+|3.0 Menor que 4.0| Suave |
+|4.0 Menor que 5.0 |Ligero|
+|5.0 Menor que 6.0 |Moderado| 
+|6.0 Menor que 7.0 |Fuerte| 
+|7.0 Menor que 8.0 |Mayor|
+|8.0 Menor que 10.0| Grande| 
+|10.0 o más |Meteórico|
+
+Escriba un programa que lea una magnitud del usuario y muestre el descriptor apropiado como parte de un mensaje significativo. Por ejemplo, si el usuario ingresa 5.5, entonces su programa debe indicar que un terremoto de magnitud 5.5 se considera un terremoto moderado.
+
+[Ejercicio 49]()
+
+## Ejercicio 50
+Una función cuadrática univariada tiene la forma f (x) = ax2 + bx + c, donde a, b y c son constantes, y a no es cero. Las raíces de una función cuadrática se pueden encontrar al encontrar los valores de x que satisfacen la ecuación cuadrática ax2 + bx + c = 0. Una función cuadrática puede tener 0, 1 o 2 raíces reales. Estas raíces se pueden calcular utilizando la fórmula cuadrática, que se muestra a continuación:
+root = (−b ± √ b2 − 4ac )/(2a)
+La parte de la expresión debajo del signo de raíz cuadrada se llama discriminante. Si el discriminante es negativo, entonces la ecuación cuadrática no tiene raíces reales.
+Si el discriminante es 0, entonces la ecuación tiene una raíz real. De lo contrario, la ecuación tiene dos raíces reales, y la expresión debe evaluarse dos veces, una vez usando un signo más, y una vez usando un signo menos, al calcular el numerador.
+Escriba un programa que calcule las raíces reales de una función cuadrática. Su programa debe comenzar solicitando al usuario los valores de a, b y c, luego, debe mostrar un mensaje que indique el número de raíces reales, junto con los valores de las raíces reales (si las hay).
+
+[Ejercicio 50]()
+
+## Ejercicio 51
+En una universidad en particular, las calificaciones con letras se asignan a los puntos de calificación de la siguiente manera:
+
+|Letra | Grado de punto |
+|---------|-----------|
+|A+| 4.0 |
+|A |4.0 |
+|A− |3.7| 
+|B+| 3.3 |
+|B |3.0 |
+|B− |2.7| 
+|C+| 2.3 |
+|C |2.0 |
+|C− |1.7| 
+|D+| 1.3 |
+|D |1.0 |
+|F |0|
+
+Escriba un programa que comience leyendo una calificación de letra del usuario. Luego, su programa debe calcular y mostrar el número equivalente de puntos de calificación. Asegúrese de que su programa genere un mensaje de error apropiado si el usuario ingresa una calificación de letra no válida.
+
+[Ejercicio 1]()
+
+## Ejercicio 52
+En el ejercicio anterior, creó un programa que convierte una calificación de letra en el número equivalente de puntos de calificación. En este ejercicio creará un programa que invierte el proceso y convierte de un valor de calificación ingresado por el usuario a una calificación de letra. Asegúrese de que su programa maneje los valores de calificación que se encuentran entre las calificaciones de las letras. Estos deben redondearse al grado de letra más cercano. Su programa debe reportar A + para un promedio de calificaciones de 4.0 (o más).
+
+[Ejercicio 52]()
+
+## Ejercicio 53
+En una empresa en particular, los empleados son calificados al final de cada año. La escala de calificación comienza en 0.0, con valores más altos que indican un mejor rendimiento y que resultan en aumentos mayores. El valor otorgado a un empleado es 0.0, 0.4 o 0.6 o más. Los valores entre 0.0 y 0.4, y entre 0.4 y 0.6 nunca se usan. El significado asociado con cada calificación se muestra en la siguiente tabla. El monto del aumento de un empleado es de $ 2400.00 multiplicado por su calificación.
+
+|Valoración |Rendimiento|
+|---------|----------|
+|0.0 |Rendimiento inaceptable|
+|0.4 |Rendimiento aceptable|
+|0.6 o más |Rendimiento meritorio|
+
+Escriba un programa que lea una calificación del usuario e indique si el rendimiento fue inaceptable, aceptable o meritorio. También se debe informar el monto del aumento del empleado. Su programa debe mostrar un mensaje de error apropiado si se ingresa una calificación no válida.
+
+[Ejercicio 53]()
+
+## Ejercicio 54
+La longitud de onda de la luz visible varía de 380 a 750 nanómetros (nm). Si bien el espectro es continuo, a menudo se divide en 6 colores como se muestra a continuación:
+|Color |Longitud de onda (nm) |
+|---------|-----------|
+|Violeta |380 o menor que 450| 
+|Azul |450 o menor que 495 |
+|Verde |495 o menor que 570 |
+|Amarillo |570 o menor que 590 |
+|Naranja |590 o menor que 620| 
+|Rojo |620 to 750|
+Escriba un programa que lea una longitud de onda del usuario e informe su color. Muestre un mensaje de error apropiado si la longitud de onda ingresada por el usuario está fuera del espectro visible.
+
+## Ejercicio 55
+La radiación electromagnética se puede clasificar en una de las 7 categorías según su frecuencia, como se muestra en la tabla a continuación:
+
+|Nombre |Rango de frecuencia (Hz)|
+|---------|-----------|
+|Ondas de radio |Menor de 3 × 10^9|
+|Microondas |3 × 10^9 a menos de 3 × 10^12|
+|Luz infrarroja| 3 × 10^12 a menos de 4.3 × 10^14|
+|Luz visible |4.3 × 10^14 a menos de 7.5 × 10^14|
+|Luz ultravioleta| 7.5 × 10^14 a menos de 3 × 10^17|
+|Rayos X |3 × 10^17 a menos de 3 × 10^19|
+|Rayos gamma |3 × 10^19 o más|
+
+Escriba un programa que lea la frecuencia de la radiación del usuario y muestre el nombre apropiado.
+
+[Ejercicio 55]()
+
+
+## Ejercicio 56
+Un plan particular de telefonía celular incluye 50 minutos de tiempo al aire y 50 mensajes de texto por $ 15.00 al mes. Cada minuto adicional de tiempo de emisión cuesta $ 0.25, mientras que los mensajes de texto adicionales cuestan $ 0.15 cada uno. Todas las facturas de teléfonos celulares incluyen un cargo adicional de $ 0.44 para respaldar los centros de atención telefónica del 911, y toda la factura (incluido el cargo del 911) está sujeta al impuesto sobre las ventas del 5 por ciento.
+Escriba un programa que lea la cantidad de minutos y mensajes de texto utilizados en un mes por parte del usuario. Muestre el cargo base, el cargo adicional por minutos (si corresponde), el cargo adicional por mensaje de texto (si corresponde), la tarifa del 911, el impuesto y el monto total de la factura. Solo muestre los cargos adicionales por minutos y mensajes de texto si el usuario incurrió en costos en estas categorías. Asegúrese de que todos los cargos se muestren con 2 decimales.
+
+[Ejercicio 56]()
+
+## Ejercicio 57
+La mayoría de los años tienen 365 días. Sin embargo, el tiempo requerido para que la Tierra orbita alrededor del Sol es en realidad un poco más que eso. Como resultado, se incluye un día adicional, el 29 de febrero, en algunos años para corregir esta diferencia. Dichos años se denominan años bisiestos. Las reglas para determinar si un año es o no bisiesto son las siguientes:
+• Cualquier año que es divisible por 400 es un año bisiesto.
+• De los años restantes, cualquier año divisible por 100 no es bisiesto.
+• De los años restantes, cualquier año que sea divisible por 4 es un año bisiesto.
+• Todos los demás años no son bisiestos.
+Escriba un programa que lea un año del usuario y muestre un mensaje que indique si es o no un año bisiesto.
+
+[Ejercicio 57]()
+
+## Ejercicio 58
+Escriba un programa que lea una fecha del usuario y calcule su sucesor inmediato. Por ejemplo, si el usuario ingresa valores que representan 2013-11-18, entonces su programa debería mostrar un mensaje que indica que el día inmediatamente posterior a 2013-11-18 es 2013-11-19. Si el usuario ingresa valores que representan 2013-11-30, entonces el programa debe indicar que el día siguiente es 2013-12-01. Si el usuario ingresa valores que representan 2013-12-31, entonces el programa debe indicar que el día siguiente es 2014-01-01. La fecha se ingresará en forma numérica con tres declaraciones de entrada separadas; uno para el año, uno para el mes y otro para el día. Asegúrese de que su programa funcione correctamente durante los años bisiestos.
+
+[Ejercicio 58]()
+
+## Ejercicio 59
+En una jurisdicción particular, las matrículas más antiguas consisten en tres letras mayúsculas seguidas de tres números. Cuando todas las placas que siguieron ese patrón tenían Una vez utilizado, el formato se cambió a cuatro números seguidos de tres letras mayúsculas.
+Escriba un programa que comience leyendo una cadena de caracteres del usuario. Luego, su programa debe mostrar un mensaje que indique si los caracteres son válidos para una placa de estilo anterior o una placa de estilo más nueva. Su programa debe mostrar un mensaje apropiado si la cadena ingresada por el usuario no es válida para ninguno de los estilos de matrícula.
+
+[Ejercicio 59]()
+
+## Ejercicio 60
+Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y dos son verdes. Los espacios verdes están numerados 0 y 00. Los espacios rojos están numerados 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30 32, 34 y 36. los números enteros restantes entre 1 y 36 se usan para numerar los espacios negros.
+Se pueden hacer muchas apuestas diferentes en la ruleta. Solo consideraremos el siguiente subconjunto de ellos en este ejercicio:
+• Número único (1 a 36, 0 o 00)
+• Rojo contra negro
+• Impar versus par (tenga en cuenta que 0 y 00 no pagan por par)
+• 1 a 18 versus 19 a 36
+Escriba un programa que simule el giro de una rueda de ruleta utilizando el generador de números aleatorios de Python. Muestra el número que se seleccionó y todas las apuestas que se deben pagar. Por ejemplo, si se selecciona 13, su programa debería mostrar:
+El giro resultó en 13 ...
+Pagar 13
+Pagar negro
+Paga impar
+Pague de 1 a 18
+
