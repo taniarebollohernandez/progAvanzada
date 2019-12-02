@@ -629,7 +629,7 @@ Mientras que adivinar no es lo suficientemente bueno
 Actualizar conjetura para que sea el promedio de conjetura y x / conjetura
 Cuando se completa este algoritmo, supongo que contiene una aproximación de la raíz cuadrada. La calidad de la aproximación depende de cómo se defina "lo suficientemente bueno". En la solución del autor, la conjetura se consideraba suficientemente buena cuando el valor absoluto de la diferencia entre conjetura ∗ conjetura yx era menor o igual a 10−12.
 
-[Ejercicio 71]()
+[Ejercicio 71](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio71.py)
 
 ## Ejercicio 72
 Una cadena es un palíndromo si es idéntica hacia adelante y hacia atrás. Por ejemplo, "anna", "civic", "level" y "hannah" son ejemplos de palabras palindrómicas. Escriba un programa que lea una cadena del usuario y use un bucle para determinar si es o no un palíndromo. Muestra el resultado, incluido un mensaje de salida significativo.
@@ -639,7 +639,7 @@ Una cadena es un palíndromo si es idéntica hacia adelante y hacia atrás. Por 
 ## Ejercicio 73
 Existen numerosas frases que son palíndromos cuando se ignora el espacio. Los ejemplos incluyen "ir perro", "huir a mí elfo remoto" y "algunos hombres interpretan nueve notas", entre muchos otros. Extienda su solución al Ejercicio 72 para que ignore el espaciado mientras determina si una cuerda es o no un palíndromo. Para un desafío adicional, extienda su solución para que también ignore los signos de puntuación y trate las letras mayúsculas y minúsculas como equivalentes.
 
-[Ejercicio 73]()
+[Ejercicio 73](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio73.py)
 
 ## Ejercicio 74
 En este ejercicio, creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta 10 inclusive 10. Su tabla de multiplicación debe incluir una fila de etiquetas en la parte superior que contenga números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consisten en los números del 1 al 10. La salida esperada del programa se muestra a continuación:
@@ -700,7 +700,7 @@ Tómese un momento y piense cómo manejaría este problema en papel. Muchas pers
 Si bien podemos responder a la pregunta planteada al final del párrafo anterior utilizando la teoría de la probabilidad, vamos a explorarla simulando la situación. Cree un programa que comience seleccionando un número entero aleatorio entre 1 y 100. Guarde este número entero como el número máximo encontrado hasta ahora. Después de que se haya seleccionado el entero inicial, genere 99 enteros aleatorios adicionales entre 1 y 100. Verifique cada entero tal como se genera para ver si es mayor que el número máximo encontrado hasta ahora. Si es así, su programa debería actualizar el número máximo encontrado y contar el hecho de que realizó una actualización. Muestra cada número entero después de generarlo. Incluya una notación con esos enteros que representan un nuevo máximo.
 Después de haber mostrado 100 enteros, su programa debería mostrar el valor máximo encontrado, junto con la cantidad de veces que el valor máximo se actualizó durante el proceso. La salida parcial para el programa se muestra a continuación, con ... representando los enteros restantes que mostrará su programa. Ejecute su programa varias veces. ¿Es la cantidad de actualizaciones realizadas en el valor máximo lo que esperaba?
 
-[Ejercicio 79]()
+[Ejercicio 79](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio79.py)
 
 ## Ejercicio 80
 ¿Cuál es el número mínimo de veces que tiene que lanzar una moneda antes de poder tener tres lanzamientos consecutivos que den como resultado el mismo resultado (o los tres son sol o los tres son cruz)? ¿Cuál es el número máximo de volteos que podrían ser necesarios? ¿Cuántas vueltas se necesitan en promedio? En este ejercicio exploraremos estas preguntas creando un programa que simule varias series de lanzamientos de monedas.
@@ -729,7 +729,7 @@ Amazon provee envio expres para muchos de sus prodcutos a un costo de $195 pesos
 Escriba una función que tome tres números como parámetros y devuelva el valor medio de esos parámetros como resultado. Incluya un programa principal que lea tres valores del usuario y muestre su mediana.
 Sugerencia: el valor medio es el medio de los tres valores cuando se ordenan en orden ascendente. Se puede encontrar usando declaraciones if, o con un poco de creatividad matemática.
 
-[Ejercicio 84]()
+[Ejercicio 84](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio84.py)
 
 ## Ejercicio 85
 Las palabras como primero, segundo y tercero se denominan números ordinales. En este ejercicio, escribirá una función que toma un número entero como su único parámetro y devuelve una cadena que contiene el número ordinal inglés apropiado como único resultado. Su función debe manejar los enteros entre 1 y 12 (inclusive). Debería devolver una cadena vacía si se proporciona un valor fuera de este rango como parámetro. Incluya un programa principal que demuestre su función mostrando cada número entero del 1 al 12 y su número ordinal. Su programa principal solo debe ejecutarse cuando su archivo no se haya importado a otro programa.
