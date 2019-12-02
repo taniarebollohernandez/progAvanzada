@@ -542,3 +542,197 @@ Pagar negro
 Paga impar
 Pague de 1 a 18
 [Ejercicio 60](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio60.py)
+
+## Ejercicio 61
+En este ejercicio usted creara un programa que calcule el promedio de una colección de valores insertados por el usuario, si el usuario introduce el valor cero, el programa debe dejar de pedir valores y posteriormente, mostrar el promedio calculado.
+
+[Ejercicio 61](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio61.py
+)
+
+## Ejercicio 62
+Un supermercado está ofreciendo el 60% de descuento en una variedad de productos descontinuados. El supermercado quiere ayudar a sus clientes a determinar el precio reducido de su mercancía con una tabla impresa en los aparadores donde muestre los precios originales y los precios después de aplicarse el descuento. Escribe un programa que use un ciclo “while” para generar esa tabla, mostrando el precio original, el descuento y el nuevo precio para los productos de 
+$4.95
+$9.95
+$14.95
+$19.95
+$24.95
+Los descuentos y los nuevos precios deben ser redondeados a dos decimales.
+
+[Ejercicio 62](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio62.py)
+
+## Ejercicio 63
+Escriba un programa que muestre una tabla de conversión de temperatura para grados Celsius y grados Fahrenheit. La tabla debe incluir filas para todas las temperaturas entre 0 y 100 grados centígrados que son múltiplos de 10 grados centígrados. Incluya encabezados apropiados en sus columnas. La fórmula para convertir entre grados Celsius y grados Fahrenheit se puede encontrar en Internet.
+
+[Ejercicio 63](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio63.py
+)
+
+## Ejercicio 64
+El 4 de febrero de 2013 fue el último día en que Royal Canadian Mint distribuyó centavos. Ahora que los centavos se han eliminado, los minoristas deben ajustar los totales para que sean múltiplos de 5 centavos cuando se pagan en efectivo (las transacciones con tarjeta de crédito y débito se siguen cargando al centavo). Si bien los minoristas tienen cierta libertad en cómo lo hacen, la mayoría elige redondear al níquel más cercano.
+Escriba un programa que lea los precios del usuario hasta que se ingrese una línea en blanco. Muestre el costo total de todos los artículos ingresados en una línea, seguido del monto adeudado si el cliente paga con efectivo en una segunda línea. El monto adeudado por un pago en efectivo debe redondearse al níquel más cercano. Una forma de calcular el monto del pago en efectivo es comenzar determinando cuántos centavos se necesitarían para pagar el total. Luego calcule el resto cuando este número de centavos se divide por 5. Finalmente, ajuste el total hacia abajo si el resto es menor que 2.5. De lo contrario, ajuste el total hacia arriba.
+
+[Ejercicio 64](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio64.py)
+
+## Ejercicio 65
+Escribe un programa que calcule el perímetro de un polígono. Comience leyendo los valores X e Y para el primer punto en el perímetro del polígono del usuario. Luego, continúe leyendo pares de valores X e Y hasta que el usuario ingrese una línea en blanco para la Coordenada X. Cada vez que lea una coordenada adicional, debe calcular la distancia al punto anterior y agregarla al perímetro. Cuando se ingresa una línea en blanco para la coordenada X, su programa debe agregar la distancia desde el último punto de regreso al primer punto al perímetro. Entonces debería mostrar el perímetro total. La entrada y salida de muestra se muestra a continuación, con la entrada del usuario en negrita:
+Ingrese la parte x de la coordenada: 0
+Ingrese la parte y de la coordenada: 0
+Ingrese la parte x de la coordenada: (en blanco para salir): 1
+Ingrese la parte y de la coordenada: 0
+Ingrese la parte x de la coordenada: (en blanco para salir): 0
+Ingrese la parte y de la coordenada: 1
+Ingrese la parte x de la coordenada: (en blanco para salir):
+El perímetro de ese polígono es 3.414213562373095
+
+[Ejercicio 65](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio65.py0)
+
+## Ejercicio 66
+El ejercicio 51 incluyó una tabla que muestra la conversión de calificaciones de letras a puntos de calificación en una institución académica particular. En este ejercicio calculará el promedio de calificaciones de un número arbitrario de calificaciones de letras ingresadas por el usuario. El usuario ingresará una línea en blanco para indicar que se han proporcionado todas las calificaciones. Por ejemplo, si el usuario ingresa A, seguido de C +, seguido de B, seguido de una línea en blanco, su programa debe informar un promedio de calificaciones de 3.1.
+Puede encontrar útil su solución para el ejercicio 51 al completar este ejercicio. Su programa no necesita hacer ninguna comprobación de errores. Se puede suponer que cada valor ingresado por el usuario siempre será una calificación de letra válida o una línea en blanco.
+
+[Ejercicio 66](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio66.py)
+
+## Ejercicio 67
+Un zoológico en particular determina el precio de admisión según la edad del huésped. Los huéspedes de 2 años de edad y menores son admitidos sin cargo. Los niños entre 3 y 12 años cuestan $ 14.00. Las personas mayores de 65 años y más cuestan $ 18.00. La entrada para todos los demás huéspedes es de $ 23.00.
+Cree un programa que comience leyendo las edades de todos los invitados en un grupo del usuario, con una edad ingresada en cada línea. El usuario ingresará una línea en blanco para indicar que no hay más invitados en el grupo. Luego, su programa debe mostrar el costo de admisión para el grupo con un mensaje apropiado. El costo debe mostrarse con dos decimales.
+
+[Ejercicio 67](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio67.py)
+
+## Ejercicio 68
+Un bit de paridad es un mecanismo simple para detectar errores en los datos transmitidos a través de una conexión no confiable, como una línea telefónica. La idea básica es que se transmite un bit adicional después de cada grupo de 8 bits para que se pueda detectar un error de un solo bit en la transmisión.
+Los bits de paridad se pueden calcular para paridad par o paridad impar. Si se selecciona paridad par, se elige el bit de paridad que se transmite de modo que el número total de un bit transmitido (8 bits de datos más el bit de paridad) sea par. Cuando se selecciona paridad impar, se elige el bit de paridad para que el número total de un bit transmitido sea impar.
+Escriba un programa que calcule el bit de paridad para grupos de 8 bits ingresados por el usuario usando paridad par. Su programa debe leer cadenas que contengan 8 bits hasta que el usuario ingrese una línea en blanco. Después de que el usuario ingrese cada cadena, su programa debe mostrar un mensaje claro que indique si el bit de paridad debe ser 0 o 1. Muestre un mensaje de error apropiado si el usuario ingresa algo distinto de 8 bits.
+Sugerencia: debe leer la entrada del usuario como una cadena. Luego puede usar el método de conteo para ayudarlo a determinar la cantidad de ceros y unos en la cadena. La información sobre el método de conteo está disponible en línea.
+
+[Ejercicio 68](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio68.py)
+
+## Ejercicio 69
+El valor de π se puede aproximar mediante las siguientes series infinitas:
+π=3+4/(2*3*4)-4/(4*5*6)+4/(6*7*8)-4/(8*9*10)+4/(10*11*12)-…
+
+Escriba un programa que muestre 15 aproximaciones de π. La primera aproximación debe utilizar solo el primer término de la serie infinita. Cada aproximación adicional mostrada por su programa debe incluir un término más en la serie, por lo que es una mejor aproximación de π que cualquiera de las aproximaciones mostradas anteriormente.
+
+[Ejercicio 69](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio69.py)
+
+## Ejercicio 70
+Uno de los primeros ejemplos conocidos de cifrado fue utilizado por Julio César. César necesitaba proporcionar instrucciones escritas a sus generales, pero no quería a sus enemigos.
+para conocer sus planes si el mensaje se deslizaba a sus manos. Como resultado, desarrolló lo que más tarde se conoció como el Cifrado César.
+La idea detrás de este cifrado es simple (y como resultado, no proporciona protección contra las técnicas modernas de descifrado de código). Cada letra en el mensaje original se desplaza en 3 lugares. Como resultado, A se convierte en D, B se convierte en E, C se convierte en F, D se convierte en G, etc. Las últimas tres letras del alfabeto se envuelven al principio: X se convierte en A, Y se convierte en B y Z se convierte en C. el cifrado no modifica los caracteres de las letras.
+Escriba un programa que implemente un cifrado César. Permita que el usuario suministre el mensaje y la cantidad de turno, y luego muestre el mensaje desplazado. Asegúrese de que su programa codifique letras mayúsculas y minúsculas. Su programa también debe admitir valores de desplazamiento negativos para que pueda usarse tanto para codificar mensajes como para decodificar mensajes.
+
+[Ejercicio 70](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio70.py)
+
+## Ejercicio 71
+Escriba un programa que implemente el método de Newton para calcular y mostrar la raíz cuadrada de un número ingresado por el usuario. El algoritmo para el método de Newton sigue:
+Leer x del usuario
+Inicializar adivinar a x / 2
+Mientras que adivinar no es lo suficientemente bueno
+Actualizar conjetura para que sea el promedio de conjetura y x / conjetura
+Cuando se completa este algoritmo, supongo que contiene una aproximación de la raíz cuadrada. La calidad de la aproximación depende de cómo se defina "lo suficientemente bueno". En la solución del autor, la conjetura se consideraba suficientemente buena cuando el valor absoluto de la diferencia entre conjetura ∗ conjetura yx era menor o igual a 10−12.
+
+[Ejercicio 71]()
+
+## Ejercicio 72
+Una cadena es un palíndromo si es idéntica hacia adelante y hacia atrás. Por ejemplo, "anna", "civic", "level" y "hannah" son ejemplos de palabras palindrómicas. Escriba un programa que lea una cadena del usuario y use un bucle para determinar si es o no un palíndromo. Muestra el resultado, incluido un mensaje de salida significativo.
+
+[Ejercicio 72](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio72.py)
+
+## Ejercicio 73
+Existen numerosas frases que son palíndromos cuando se ignora el espacio. Los ejemplos incluyen "ir perro", "huir a mí elfo remoto" y "algunos hombres interpretan nueve notas", entre muchos otros. Extienda su solución al Ejercicio 72 para que ignore el espaciado mientras determina si una cuerda es o no un palíndromo. Para un desafío adicional, extienda su solución para que también ignore los signos de puntuación y trate las letras mayúsculas y minúsculas como equivalentes.
+
+[Ejercicio 73]()
+
+## Ejercicio 74
+En este ejercicio, creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros desde 1 por 1 hasta 10 inclusive 10. Su tabla de multiplicación debe incluir una fila de etiquetas en la parte superior que contenga números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consisten en los números del 1 al 10. La salida esperada del programa se muestra a continuación:
+
+| |1|2|3|4|5|6|7|8|9|10|
+|-|-|-|-|-|-|-|-|-|-|-|
+|1|1|2|3|4|5|6|7|8|9|10|
+|2|2|4|6|8|10|12|14|16|18|20|
+|3|3|6|9|12|15|18|21|24|27|30|
+|4|4|8|12|16|20|24|28|32|36|40|
+|5|5|10|15|20|25|30|35|40|45|50|
+|6|6|12|18|24|30|36|42|48|54|60|
+|7|7|14|21|28|35|42|49|56|63|70|
+|8|8|16|24|32|40|48|56|64|72|80|
+|9|9|18|27|36|45|54|63|72|81|90|
+|10|10|20|30|40|50|60|70|80|90|100|
+
+Al completar este ejercicio, probablemente le sea útil poder imprimir un valor sin pasar a la siguiente línea. Esto se puede lograr agregando end = " " como el último parámetro a su declaración de impresión. Por ejemplo, print ("A") mostrará la letra A y luego bajará a la siguiente línea. La instrucción de impresión ("A", end = "") mostrará la letra A sin moverse a la línea siguiente, haciendo que la siguiente instrucción de impresión muestre su resultado en la misma línea que la letra A
+
+[Ejercicio 74](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio74.py)
+
+## Ejercicio 75
+El máximo común divisor de dos enteros positivos, n y m, es el número más grande, d, que se divide uniformemente en n y m. Existen varios algoritmos que pueden usarse para resolver este problema, que incluyen:
+ Inicialice d al menor de myn.
+while d no divide equitativamente m o d no divide equitativamente n do
+Disminuya el valor de d en 1
+Informe d como el máximo divisor común de n y m
+Escriba un programa que lea dos enteros positivos del usuario y use este algoritmo para determinar e informar su máximo divisor común.
+
+[Ejercicio 75](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio75.py)
+
+## Ejercicio 76
+La factorización prima de un número entero, n, se puede determinar utilizando los siguientes pasos: Inicializar factor a dos
+ while el factor es menor o igual que n do
+ if n es divisible uniformemente por factor, then
+ Concluir que el factor es un factor de n
+ Divide n por factor usando la división entera
+ else
+ Aumenta el factor en uno
+Escriba un programa que lea un número entero del usuario. Si el valor ingresado por el usuario es menor que 2, entonces su programa debería mostrar un mensaje de error apropiado.
+De lo contrario, su programa debería mostrar los números primos que se pueden multiplicar para calcular n, con un factor que aparece en cada línea.
+
+[Ejercicio 76](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio76.py)
+
+## Ejercicio 77
+Escriba un programa que convierta un número binario (base 2) a decimal (base 10). Su programa debe comenzar leyendo el número binario del usuario como una cadena. Luego, debe calcular el número decimal equivalente procesando cada dígito en el número binario. Finalmente, su programa debe mostrar el número decimal equivalente con un mensaje apropiado.
+
+[Ejercicio 77](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio77.py)
+
+## Ejercicio 78
+Escriba un programa que convierta un número decimal (base 10) a binario (base 2). Lea el número decimal del usuario como un entero y luego use el algoritmo de división que se muestra a continuación para realizar la conversión. Cuando se completa el algoritmo, el resultado contiene la representación binaria del número. Muestra el resultado, junto con un mensaje apropiado.
+
+[Ejercicio 78](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio78.py)
+
+## Ejercicio 79
+Este ejercicio examina el proceso de identificación del valor máximo en una colección de enteros. Cada uno de los enteros se seleccionará aleatoriamente de los números entre 1 y 100. La colección de enteros puede contener valores duplicados, y algunos de los enteros entre 1 y 100 pueden no estar presentes.
+Tómese un momento y piense cómo manejaría este problema en papel. Muchas personas verifican cada número entero en secuencia y se preguntan si el número que están considerando actualmente es mayor que el número más grande que han visto anteriormente. Si es así, se olvidan del número máximo anterior y recuerdan el número actual como el nuevo número máximo. Este es un enfoque razonable y dará como resultado la respuesta correcta cuando el proceso se realice con cuidado. Si realizara esta tarea, ¿cuántas veces esperaría necesitar actualizar el valor máximo y recordar un nuevo número?
+Si bien podemos responder a la pregunta planteada al final del párrafo anterior utilizando la teoría de la probabilidad, vamos a explorarla simulando la situación. Cree un programa que comience seleccionando un número entero aleatorio entre 1 y 100. Guarde este número entero como el número máximo encontrado hasta ahora. Después de que se haya seleccionado el entero inicial, genere 99 enteros aleatorios adicionales entre 1 y 100. Verifique cada entero tal como se genera para ver si es mayor que el número máximo encontrado hasta ahora. Si es así, su programa debería actualizar el número máximo encontrado y contar el hecho de que realizó una actualización. Muestra cada número entero después de generarlo. Incluya una notación con esos enteros que representan un nuevo máximo.
+Después de haber mostrado 100 enteros, su programa debería mostrar el valor máximo encontrado, junto con la cantidad de veces que el valor máximo se actualizó durante el proceso. La salida parcial para el programa se muestra a continuación, con ... representando los enteros restantes que mostrará su programa. Ejecute su programa varias veces. ¿Es la cantidad de actualizaciones realizadas en el valor máximo lo que esperaba?
+
+[Ejercicio 79]()
+
+## Ejercicio 80
+¿Cuál es el número mínimo de veces que tiene que lanzar una moneda antes de poder tener tres lanzamientos consecutivos que den como resultado el mismo resultado (o los tres son sol o los tres son cruz)? ¿Cuál es el número máximo de volteos que podrían ser necesarios? ¿Cuántas vueltas se necesitan en promedio? En este ejercicio exploraremos estas preguntas creando un programa que simule varias series de lanzamientos de monedas.
+Cree un programa que use el generador de números aleatorios de Python para simular lanzar una moneda varias veces. La moneda simulada debe ser justa, lo que significa que la probabilidad de sol es igual a la probabilidad de cruz. Su programa debe voltear monedas simuladas hasta que ocurran 3 sol consecutivas de 3 cruz consecutivas. Muestre una S cada vez que el resultado sea sol, y una C cada vez que el resultado sea cruz, con todos los resultados mostrados en la misma línea. Luego muestre el número de vueltas necesarias para alcanzar 3 vueltas consecutivas con el mismo resultado. Cuando se ejecuta su programa, debe realizar la simulación 10 veces e informar el número promedio de vueltas necesarias.
+
+[Ejercicio 80](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio80.py)
+
+
+
+## Ejercicio 81
+Escribe una función que tome las longitudes de los dos lados más cortos de un triángulo rectángulo como sus parámetros. Devuelve la hipotenusa del triángulo, calculada usando el teorema de Pitágoras, como resultado de la función. Incluya un programa principal que lea las longitudes de los lados más cortos de un triángulo rectángulo del usuario, use su función para calcular la longitud de la hipotenusa y muestre el resultado.
+
+[Ejercicio 81](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio81.py)
+
+## Ejercicio 82
+En la ciudad de mexico la taria fe taxi uber consiste en un precio base de $44 pesoes mas $12 pesos por cada kilometro recorridoEscriba una funcion que tome la distancia viajada (en km).El cual debe ser el unico argumento y regrese la tarifa total como resultado.Escriba un programa principal que demuestre la funcion 
+
+[Ejercicio 82](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio82.py)
+
+## Ejercicio 83
+Amazon provee envio expres para muchos de sus prodcutos a un costo de $195 pesos por el primer productoy de $29.50 para cada producto subsecuenteEscriba una funcion que tome el numero de productos como su unico argumento.Regrese el costo de envio total como el resultado de la funcion.Incluya un programa principal que lea el numero de productos comprados por el usuario y que desplieje el costo total de envio.
+
+[Ejercicio 83](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio83.py)
+
+## Ejercicio 84
+Escriba una función que tome tres números como parámetros y devuelva el valor medio de esos parámetros como resultado. Incluya un programa principal que lea tres valores del usuario y muestre su mediana.
+Sugerencia: el valor medio es el medio de los tres valores cuando se ordenan en orden ascendente. Se puede encontrar usando declaraciones if, o con un poco de creatividad matemática.
+
+[Ejercicio 84]()
+
+## Ejercicio 85
+Las palabras como primero, segundo y tercero se denominan números ordinales. En este ejercicio, escribirá una función que toma un número entero como su único parámetro y devuelve una cadena que contiene el número ordinal inglés apropiado como único resultado. Su función debe manejar los enteros entre 1 y 12 (inclusive). Debería devolver una cadena vacía si se proporciona un valor fuera de este rango como parámetro. Incluya un programa principal que demuestre su función mostrando cada número entero del 1 al 12 y su número ordinal. Su programa principal solo debe ejecutarse cuando su archivo no se haya importado a otro programa.
+
+[Ejercicio 85](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio85.py)
+
