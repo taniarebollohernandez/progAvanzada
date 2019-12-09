@@ -820,3 +820,58 @@ Escriba un programa que permita al usuario convertir un número de una base a ot
 Escriba una función que determine cuántos días hay en un mes en particular. Su función tomará dos parámetros: el mes como un número entero entre 1 y 12, y el año como un número entero de cuatro dígitos. Asegúrese de que su función informa el número correcto de días en febrero para los años bisiestos. Incluya un programa principal que lea un mes y un año del usuario y muestre la cantidad de días en ese mes. Puede encontrar útil su solución para el ejercicio 57 al resolver este problema
 
 [Ejercicio 100](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicio100.py)
+
+## class
+Las clases y los objetos sirven para crear tu propio tipo de datos (es decir, tipos de datos definidos por el usuario). Una clase es un tipo de dato definido por el usuario, y la crear instancias de una clase hace relación a la creación de objetos de ese tipo. Las clases y los objetos son considerados los principales bloques de desarrollo para Python, el cual es un lenguaje de programación orientado a objetos.
+
+[Ejercicio class1](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicioob1.py)
+[Ejercicio class2](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicioob2.py)
+[Ejercicio class3](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejercicioob3.py)
+
+
+## Dado
+Realizar un programa que permita generar un numero aleatorio entre el 1 y el 6 que simule el proceso de tirar un dado.
+
+[Ejerciciodado](https://github.com/taniarebollohernandez/progAvanzada/blob/master/dado.py)
+
+
+## Distancia
+Escribir un programa que calcule la distancia entre dos puntos dadas las coordenadas, de cada punto. El programa deve contener una clase que tenga los atributos 
+(x,y) y un metodo llamado distancia que se encarga de regresar la distancia entre el mismo punto y otro punto.
+[Distancia](https://github.com/taniarebollohernandez/progAvanzada/blob/master/distanciapunto.py)
+
+## Poligono
+Modiifar el programa anterior para que calule, el perimetro de un poligono que tiene 4 vertices 
+[Poligono](https://github.com/taniarebollohernandez/progAvanzada/blob/master/distanciapoligono.py)
+
+
+## GUI01
+Introduccion a la programacion de GUI (Grophical User Interface)
+
+Hasta ahora hemos escrito algunos programas que se ejecutan en una linea de comando. Sin embargo un usuario promedio espera, interactuar de forma grafica con la computadora
+En python existe un modulo que se llama "tKinter" que provee una serie de librerias estandar para el manjeo de graficos en la computadora. Este modulo permite generar graficos en cualquier tipo de plataforma y utiliza el manejo de clases y objetos utulizando una forma de programacion llamada "PROGRAMACION ORIENTADA A EVENTOS", en el que un evento se activa cuando el usuario hace algo, por ejemplo 
+
+Cuando se da un clik en un boton  o cuando se preciona una cierta tecla estas aplicaciones siempre deven de escuchar los eventos y responder en el caso de que ocurra un evento 
+
+tkinter libreria Tk (ventana)
+label (etiqueta)
+button(botonoes)
+a master no se le puede cambiar el nombre, siempre va llevar el master cada que tengamos que hacer una interfaz grafica
+master (ventana)
+pack (agrupando a como se vallan creando)
+tk(tambien reacciona a android, etc, wiiled)
+[GUI1](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejemploGUI.py)
+
+
+## GUI02
+Modificacion del primero.
+[GUI2](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejemploGUI2.py)
+
+## GUI03
+Entry: caja de texto
+primero se comienza por el eje "y" (row), despues por el eje "x" (column)
+
+[GUI3](https://github.com/taniarebollohernandez/progAvanzada/blob/master/ejemploGUI4.py#L1)
+
+
+
